@@ -1,12 +1,15 @@
 import './App.css';
+import Board from './Board/Board.js';
 
 function App() {
   return (
-    
-        <p>
-          Siema
-        </p>
-        
+    <div>
+      <p>
+        Siema
+      </p>
+      <Board />
+    </div>
+
   );
 }
 
